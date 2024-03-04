@@ -12,3 +12,10 @@ Original Bruno Putzeys preamplifier used qty 4 of LM4562 + qty 1 of TL072 (as se
 Alternatives to LM4562 include
 * OPA1642AIDR  595-OPA1642AIDR
 * OPA1656ID    595-OPA1656ID
+
+Addition of inverting amplifiers within balanced output (Vout-) adds following components into overall circuit:
+U7, U8 OPA1656
+R38-41 12K 0805 Thin Film
+C28, C29 47pF **DNF**
+
+Addition of unbalanced output for use by external headphone amplifier added connector X5 only.
